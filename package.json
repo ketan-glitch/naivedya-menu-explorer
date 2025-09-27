@@ -3,7 +3,6 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://ketan-glitch.github.io/naivedya-menu-explorer",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
