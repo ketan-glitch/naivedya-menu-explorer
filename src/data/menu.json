@@ -1,0 +1,171 @@
+{
+  "categories": [
+    {
+      "name": { "en": "Roti", "mr": "पोळी / भाकरी" },
+      "items": [
+        { "name": { "en": "Chapati", "mr": "पोळी" }, "price": 8 },
+        { "name": { "en": "Tandoor Bhakri", "mr": "तंदूर भाकरी" }, "price": 15 },
+        { "name": { "en": "Jwari Bhakri", "mr": "ज्वारी भाकरी" }, "price": 17 },
+        { "name": { "en": "Bajra Bhakri", "mr": "बाजरी भाकरी" }, "price": 17 },
+        { "name": { "en": "Nachani Bhakri", "mr": "नाचणी भाकरी" }, "price": 17 }
+      ]
+    },
+    {
+      "name": { "en": "Paratha", "mr": "पराठा" },
+      "items": [
+        { "name": { "en": "Aloo Paratha", "mr": "बटाटा पराठा" }, "price": 30 },
+        { "name": { "en": "Methi Paratha", "mr": "मेथी पराठा" }, "price": 20 },
+        { "name": { "en": "Palak Paratha", "mr": "पालक पराठा" }, "price": 20 },
+        { "name": { "en": "Paneer Paratha", "mr": "पनीर पराठा" }, "price": 40 },
+        { "name": { "en": "Thali Pith", "mr": "थालीपीठ" }, "price": 30 },
+        { "name": { "en": "Besan Pola", "mr": "बेसन पोळा" }, "price": 20 },
+        { "name": { "en": "Kombdi Wada (05 Pcs)", "mr": "कोंबडी वडा (०५ नग)" }, "price": 75 }
+      ]
+    },
+    {
+      "name": { "en": "Veg Bhaji", "mr": "भाजी (शाकाहारी)" },
+      "items": [
+        { "name": { "en": "Leafy Vegetable Bhaji", "mr": "पालेभाजी" }, "price": { "full": 100, "half": 50 } },
+        { "name": { "en": "Dry Bhaji", "mr": "कोरडी भाजी" }, "price": { "full": 90, "half": 50 } },
+        { "name": { "en": "Dry Aloo Bhaji", "mr": "बटाट्याची भाजी" }, "price": { "full": 90, "half": 50 } },
+        { "name": { "en": "Dry Usal", "mr": "उसळ" }, "price": { "full": 100, "half": 50 } },
+        { "name": { "en": "Sev Bhaji", "mr": "शेव भाजी" }, "price": { "full": 80, "half": 50 } },
+        { "name": { "en": "Curry", "mr": "रस्सा" }, "price": { "full": 80, "half": 50 } },
+        { "name": { "en": "Pithla", "mr": "पिठलं" }, "price": { "full": 80, "half": 50 } },
+        { "name": { "en": "Veg Medium Bhaji", "mr": "व्हेज मध्यम भाजी" }, "price": { "full": 80, "half": 50 } },
+        { "name": { "en": "Usal Rasa Bhaji", "mr": "उसळ रस्सा" }, "price": { "full": 80, "half": 50 } },
+        { "name": { "en": "Tawa Flower Matar", "mr": "तवा फुल मटर" }, "price": 100 },
+        { "name": { "en": "Tawa Vanga", "mr": "तवा वांगी" }, "price": 100 },
+        { "name": { "en": "Tawa Aloo", "mr": "तवा बटाटा" }, "price": 100 },
+        { "name": { "en": "Tawa Karela", "mr": "तवा कारलं" }, "price": 100 },
+        { "name": { "en": "Tawa Bhendi", "mr": "तवा भेंडी" }, "price": 100 },
+        { "name": { "en": "Tawa Tondli", "mr": "तवा तोंडली" }, "price": 100 },
+        { "name": { "en": "Tawa Paneer", "mr": "तवा पनीर" }, "price": 100 },
+        { "name": { "en": "Paneer Butter Masala", "mr": "पनीर बटर मसाला" }, "price": { "full": 140, "half": 80 } },
+        { "name": { "en": "Paneer Masala", "mr": "पनीर मसाला" }, "price": { "full": 140, "half": 80 } },
+        { "name": { "en": "Paneer Kolhapuri", "mr": "पनीर कोल्हापुरी" }, "price": { "full": 140, "half": 80 } }
+      ]
+    },
+    {
+      "name": { "en": "Rice", "mr": "भात" },
+      "items": [
+        { "name": { "en": "Plain Rice", "mr": "साधा भात" }, "price": { "full": 60, "half": 30 } },
+        { "name": { "en": "Jeera Rice", "mr": "जिरा भात" }, "price": { "full": 80, "half": 50 } },
+        { "name": { "en": "Pulav Rice", "mr": "पुलाव भात" }, "price": { "full": 110, "half": 70 } },
+        { "name": { "en": "Masala Rice", "mr": "मसाला भात" }, "price": { "full": 120, "half": 80 } },
+        { "name": { "en": "Veg Fried Rice", "mr": "व्हेज फ्राईड राईस" }, "price": { "full": 130, "half": 90 } },
+        { "name": { "en": "Paneer Biryani", "mr": "पनीर बिर्याणी" }, "price": 140 },
+        { "name": { "en": "Dal Khichdi", "mr": "डाळ खिचडी" }, "price": { "full": 180, "half": 120 } },
+        { "name": { "en": "Veg Biryani", "mr": "व्हेज बिर्याणी" }, "price": { "full": 160, "half": 110 }, "note": "₹900 प्रति किलो" },
+        { "name": { "en": "Veg Paneer Biryani", "mr": "पनीर बिर्याणी" }, "price": { "full": 220, "half": 160 }, "note": "₹1050 प्रति किलो" }
+      ]
+    },
+    {
+      "name": { "en": "Dal", "mr": "डाळ" },
+      "items": [
+        { "name": { "en": "Dal Fry", "mr": "डाळ फ्राय" }, "price": { "full": 80, "half": 40 } },
+        { "name": { "en": "Dal Tadka", "mr": "डाळ तडका" }, "price": { "full": 90, "half": 50 } }
+      ]
+    },
+    {
+      "name": { "en": "Chatpata", "mr": "चटपटीत" },
+      "items": [
+        { "name": { "en": "Aloo Vadi", "mr": "बटाटा वडी" }, "price": { "full": 60, "half": 35 } },
+        { "name": { "en": "Kothimbirwadi", "mr": "कोथिंबीर वडी" }, "price": { "full": 60, "half": 40 } },
+        { "name": { "en": "Chana Koliwada", "mr": "चना कोळीवाडा" }, "price": 100 },
+        { "name": { "en": "Batata Kaap", "mr": "बटाटा काप" }, "price": 100 },
+        { "name": { "en": "Vangyacha Kaap", "mr": "वांग्याचा काप" }, "price": 100 },
+        { "name": { "en": "Papad", "mr": "पापड" }, "price": 8 },
+        { "name": { "en": "Rice Papad", "mr": "तांदळाचा पापड" }, "price": 20 },
+        { "name": { "en": "Nachani Papad", "mr": "नाचणी पापड" }, "price": 20 }
+      ]
+    },
+    {
+      "name": { "en": "Naivedya Special Sweets", "mr": "नैवेद्य स्पेशल गोड" },
+      "items": [
+        { "name": { "en": "Sheera", "mr": "शिरा" }, "price": 20 },
+        { "name": { "en": "Gulab Jamun", "mr": "गुलाबजाम" }, "price": 15 },
+        { "name": { "en": "Basundi", "mr": "बासुंदी" }, "price": 40 },
+        { "name": { "en": "Jilebi (100 g)", "mr": "जिलेबी (१०० ग्रॅम)" }, "price": 25 }
+      ]
+    },
+    {
+      "name": { "en": "Cold Drinks", "mr": "थंड पेय" },
+      "items": [
+        { "name": { "en": "Butter Milk", "mr": "ताक" }, "price": 10 },
+        { "name": { "en": "Mineral Water", "mr": "मिनरल वॉटर" }, "price": 15 },
+        { "name": { "en": "Cold Drink (200 ml)", "mr": "कोल्ड ड्रिंक (२०० मिली)" }, "price": 15 },
+        { "name": { "en": "Cold Drink (600 ml)", "mr": "कोल्ड ड्रिंक (६०० मिली)" }, "price": 35 },
+        { "name": { "en": "Cold Drink (2 Ltr)", "mr": "कोल्ड ड्रिंक (२ लि)" }, "price": 60 }
+      ]
+    },
+    {
+      "name": { "en": "Veg Thali", "mr": "शाकाहारी थाळी" },
+      "items": [
+        { "name": { "en": "Mini Veg Thali", "mr": "मिनी व्हेज थाळी" }, "price": 60 },
+        { "name": { "en": "Veg Medium Thali", "mr": "व्हेज मध्यम थाळी" }, "price": 70 },
+        { "name": { "en": "Veg Special Thali", "mr": "व्हेज स्पेशल थाळी" }, "price": 100 },
+        { "name": { "en": "Punjabi Thali", "mr": "पंजाबी थाळी" }, "price": 120 },
+        { "name": { "en": "Paneer Thali", "mr": "पनीर थाळी" }, "price": 150 }
+      ]
+    },
+    {
+      "name": { "en": "Non-Veg Bhaji", "mr": "भाजी (मांसाहारी)" },
+      "items": [
+        { "name": { "en": "Egg Curry", "mr": "अंड्याची भाजी" }, "price": { "full": 90, "half": 50 } },
+        { "name": { "en": "Egg Masala", "mr": "अंडा मसाला" }, "price": { "full": 90, "half": 50 } },
+        { "name": { "en": "Anda Bhurji", "mr": "अंडा भुर्जी" }, "price": { "full": 90, "half": 50 } },
+        { "name": { "en": "Chicken Curry", "mr": "चिकन करी" }, "price": { "full": 180, "half": 100 } },
+        { "name": { "en": "Chicken Masala", "mr": "चिकन मसाला" }, "price": { "full": 180, "half": 100 } },
+        { "name": { "en": "Chicken Kolhapuri", "mr": "चिकन कोल्हापुरी" }, "price": { "full": 180, "half": 100 } },
+        { "name": { "en": "Mutton Curry", "mr": "मटण करी" }, "price": { "full": 260, "half": 150 } },
+        { "name": { "en": "Mutton Masala", "mr": "मटण मसाला" }, "price": { "full": 260, "half": 150 } },
+        { "name": { "en": "Mutton Kolhapuri", "mr": "मटण कोल्हापुरी" }, "price": { "full": 260, "half": 150 } },
+        { "name": { "en": "Fish Curry", "mr": "फिश करी" }, "price": 180 },
+        { "name": { "en": "Fish Masala", "mr": "फिश मसाला" }, "price": 180 },
+        { "name": { "en": "Prawns Curry", "mr": "कोळंबी करी" }, "price": 220 },
+        { "name": { "en": "Prawns Masala", "mr": "कोळंबी मसाला" }, "price": 220 }
+      ]
+    },
+    {
+      "name": { "en": "Fry Items", "mr": "फ्राय पदार्थ" },
+      "items": [
+        { "name": { "en": "Egg Fry", "mr": "अंडा फ्राय" }, "price": 20 },
+        { "name": { "en": "Omelette", "mr": "ऑम्लेट" }, "price": 25 },
+        { "name": { "en": "Boiled Egg", "mr": "उकडलेले अंडे" }, "price": 10 },
+        { "name": { "en": "Chicken Fry", "mr": "चिकन फ्राय" }, "price": { "full": 200, "half": 110 } },
+        { "name": { "en": "Mutton Fry", "mr": "मटण फ्राय" }, "price": { "full": 280, "half": 150 } },
+        { "name": { "en": "Fish Fry", "mr": "फिश फ्राय" }, "price": 200 },
+        { "name": { "en": "Prawns Fry", "mr": "कोळंबी फ्राय" }, "price": 220 }
+      ]
+    },
+    {
+      "name": { "en": "Non-Veg Biryani", "mr": "मांसाहारी बिर्याणी" },
+      "items": [
+        { "name": { "en": "Egg Biryani", "mr": "अंडा बिर्याणी" }, "price": { "full": 150, "half": 100 } },
+        { "name": { "en": "Chicken Biryani", "mr": "चिकन बिर्याणी" }, "price": { "full": 200, "half": 120 }, "note": "₹1050 प्रति किलो" },
+        { "name": { "en": "Mutton Biryani", "mr": "मटण बिर्याणी" }, "price": { "full": 280, "half": 160 }, "note": "₹1600 प्रति किलो" },
+        { "name": { "en": "Fish Biryani", "mr": "फिश बिर्याणी" }, "price": 200 },
+        { "name": { "en": "Prawns Biryani", "mr": "कोळंबी बिर्याणी" }, "price": 220 }
+      ]
+    },
+    {
+      "name": { "en": "Non-Veg Thali", "mr": "मांसाहारी थाळी" },
+      "items": [
+        { "name": { "en": "Egg Curry Thali", "mr": "अंडा करी थाळी" }, "price": 70 },
+        { "name": { "en": "Egg Masala Thali", "mr": "अंडा मसाला थाळी" }, "price": 70 },
+        { "name": { "en": "Egg Bhurji Thali", "mr": "अंडा भुर्जी थाळी" }, "price": 70 },
+        { "name": { "en": "Chicken Curry Thali", "mr": "चिकन करी थाळी" }, "price": 120 },
+        { "name": { "en": "Chicken Masala Thali", "mr": "चिकन मसाला थाळी" }, "price": 120 },
+        { "name": { "en": "Chicken Kolhapuri Thali", "mr": "चिकन कोल्हापुरी थाळी" }, "price": 120 },
+        { "name": { "en": "Mutton Curry Thali", "mr": "मटण करी थाळी" }, "price": 160 },
+        { "name": { "en": "Mutton Masala Thali", "mr": "मटण मसाला थाळी" }, "price": 160 },
+        { "name": { "en": "Mutton Kolhapuri Thali", "mr": "मटण कोल्हापुरी थाळी" }, "price": 160 },
+        { "name": { "en": "Fish Curry Thali", "mr": "फिश करी थाळी" }, "price": 120 },
+        { "name": { "en": "Fish Masala Thali", "mr": "फिश मसाला थाळी" }, "price": 120 },
+        { "name": { "en": "Prawns Curry Thali", "mr": "कोळंबी करी थाळी" }, "price": 140 },
+        { "name": { "en": "Prawns Masala Thali", "mr": "कोळंबी मसाला थाळी" }, "price": 140 }
+      ]
+    }
+  ]
+}
