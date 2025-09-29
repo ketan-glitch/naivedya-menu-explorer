@@ -1,0 +1,2230 @@
+{
+  "restaurantName": "Naivedya",
+  "lastUpdated": "2025-09-29T21:00:00Z",
+  "todaysSpecialConfig": {
+    "showTodaysSpecial": true,
+    "items": [
+      {
+        "id": "item31",
+        "name": {
+          "en": "Paneer Kolhapuri",
+          "mr": "पनीर कोल्हापुरी"
+        },
+        "description": {
+          "en": "Spicy Paneer Kolhapuri cooked with aromatic spices.",
+          "mr": "सुगंधी मसाल्यांसह बनवलेले मसालेदार पनीर कोल्हापुरी."
+        },
+        "price": {
+          "full": 140,
+          "half": 80
+        },
+        "image": "https://placeholder.com/food/paneer-kolhapuri.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "spicy",
+          "mr": "तिखट"
+        },
+        "vegOrNonVeg": "veg",
+        "tags": ["veg bhaji"]
+      }
+    ]
+  },
+  "menu": {
+    "Roti": [
+      {
+        "id": "item1",
+        "name": {
+          "en": "Chapati",
+          "mr": "पोळी"
+        },
+        "description": {
+          "en": "Chapati prepared in traditional style.",
+          "mr": "पारंपरिक पद्धतीने बनवलेले पोळी."
+        },
+        "price": 8,
+        "image": "https://placeholder.com/food/chapati.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "none",
+          "mr": "नसलेले"
+        },
+        "vegOrNonVeg": "veg",
+        "tags": ["roti"]
+      },
+      {
+        "id": "item2",
+        "name": {
+          "en": "Tandoor Bhakri",
+          "mr": "तंदूर भाकरी"
+        },
+        "description": {
+          "en": "Flavorful Tandoor Bhakri with balanced spices.",
+          "mr": "संतुलित मसाल्यांसह स्वादिष्ट तंदूर भाकरी."
+        },
+        "price": 15,
+        "image": "https://placeholder.com/food/tandoor-bhakri.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "medium",
+          "mr": "मध्यम"
+        },
+        "vegOrNonVeg": "veg",
+        "tags": ["roti"]
+      },
+      {
+        "id": "item3",
+        "name": {
+          "en": "Jwari Bhakri",
+          "mr": "ज्वारी भाकरी"
+        },
+        "description": {
+          "en": "Jwari Bhakri prepared in traditional style.",
+          "mr": "पारंपरिक पद्धतीने बनवलेले ज्वारी भाकरी."
+        },
+        "price": 17,
+        "image": "https://placeholder.com/food/jwari-bhakri.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "none",
+          "mr": "नसलेले"
+        },
+        "vegOrNonVeg": "veg",
+        "tags": ["roti"]
+      },
+      {
+        "id": "item4",
+        "name": {
+          "en": "Bajra Bhakri",
+          "mr": "बाजरी भाकरी"
+        },
+        "description": {
+          "en": "Bajra Bhakri prepared in traditional style.",
+          "mr": "पारंपरिक पद्धतीने बनवलेले बाजरी भाकरी."
+        },
+        "price": 17,
+        "image": "https://placeholder.com/food/bajra-bhakri.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "none",
+          "mr": "नसलेले"
+        },
+        "vegOrNonVeg": "veg",
+        "tags": ["roti"]
+      },
+      {
+        "id": "item5",
+        "name": {
+          "en": "Nachani Bhakri",
+          "mr": "नाचणी भाकरी"
+        },
+        "description": {
+          "en": "Nachani Bhakri prepared in traditional style.",
+          "mr": "पारंपरिक पद्धतीने बनवलेले नाचणी भाकरी."
+        },
+        "price": 17,
+        "image": "https://placeholder.com/food/nachani-bhakri.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "none",
+          "mr": "नसलेले"
+        },
+        "vegOrNonVeg": "veg",
+        "tags": ["roti"]
+      }
+    ],
+    "Paratha": [
+      {
+        "id": "item6",
+        "name": {
+          "en": "Aloo Paratha",
+          "mr": "बटाटा पराठा"
+        },
+        "description": {
+          "en": "Aloo Paratha prepared in traditional style.",
+          "mr": "पारंपरिक पद्धतीने बनवलेले बटाटा पराठा."
+        },
+        "price": 30,
+        "image": "https://placeholder.com/food/aloo-paratha.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "mild",
+          "mr": "हलके"
+        },
+        "vegOrNonVeg": "veg",
+        "tags": ["paratha"]
+      },
+      {
+        "id": "item7",
+        "name": {
+          "en": "Methi Paratha",
+          "mr": "मेथी पराठा"
+        },
+        "description": {
+          "en": "Methi Paratha prepared in traditional style.",
+          "mr": "पारंपरिक पद्धतीने बनवलेले मेथी पराठा."
+        },
+        "price": 20,
+        "image": "https://placeholder.com/food/methi-paratha.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "mild",
+          "mr": "हलके"
+        },
+        "vegOrNonVeg": "veg",
+        "tags": ["paratha"]
+      },
+      {
+        "id": "item8",
+        "name": {
+          "en": "Palak Paratha",
+          "mr": "पालक पराठा"
+        },
+        "description": {
+          "en": "Palak Paratha prepared in traditional style.",
+          "mr": "पारंपरिक पद्धतीने बनवलेले पालक पराठा."
+        },
+        "price": 20,
+        "image": "https://placeholder.com/food/palak-paratha.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "mild",
+          "mr": "हलके"
+        },
+        "vegOrNonVeg": "veg",
+        "tags": ["paratha"]
+      },
+      {
+        "id": "item9",
+        "name": {
+          "en": "Paneer Paratha",
+          "mr": "पनीर पराठा"
+        },
+        "description": {
+          "en": "Paneer Paratha prepared in traditional style.",
+          "mr": "पारंपरिक पद्धतीने बनवलेले पनीर पराठा."
+        },
+        "price": 40,
+        "image": "https://placeholder.com/food/paneer-paratha.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "mild",
+          "mr": "हलके"
+        },
+        "vegOrNonVeg": "veg",
+        "tags": ["paratha"]
+      },
+      {
+        "id": "item10",
+        "name": {
+          "en": "Thali Pith",
+          "mr": "थालीपीठ"
+        },
+        "description": {
+          "en": "Thali Pith prepared in traditional style.",
+          "mr": "पारंपरिक पद्धतीने बनवलेले थालीपीठ."
+        },
+        "price": 30,
+        "image": "https://placeholder.com/food/thali-pith.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "none",
+          "mr": "नसलेले"
+        },
+        "vegOrNonVeg": "veg",
+        "tags": ["paratha"]
+      },
+      {
+        "id": "item11",
+        "name": {
+          "en": "Besan Pola",
+          "mr": "बेसन पोळा"
+        },
+        "description": {
+          "en": "Besan Pola prepared in traditional style.",
+          "mr": "पारंपरिक पद्धतीने बनवलेले बेसन पोळा."
+        },
+        "price": 20,
+        "image": "https://placeholder.com/food/besan-pola.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "none",
+          "mr": "नसलेले"
+        },
+        "vegOrNonVeg": "veg",
+        "tags": ["paratha"]
+      },
+      {
+        "id": "item12",
+        "name": {
+          "en": "Kombdi Wada (05 Pcs)",
+          "mr": "कोंबडी वडा (०५ नग)"
+        },
+        "description": {
+          "en": "Kombdi Wada (05 Pcs) prepared in traditional style.",
+          "mr": "पारंपरिक पद्धतीने बनवलेले कोंबडी वडा (०५ नग)."
+        },
+        "price": 75,
+        "image": "https://placeholder.com/food/kombdi-wada-(05-pcs).jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "none",
+          "mr": "नसलेले"
+        },
+        "vegOrNonVeg": "veg",
+        "tags": ["paratha"]
+      }
+    ],
+    "Veg Bhaji": [
+      {
+        "id": "item13",
+        "name": {
+          "en": "Leafy Vegetable Bhaji",
+          "mr": "पालेभाजी"
+        },
+        "description": {
+          "en": "Leafy Vegetable Bhaji prepared in traditional style.",
+          "mr": "पारंपरिक पद्धतीने बनवलेले पालेभाजी."
+        },
+        "price": {
+          "full": 100,
+          "half": 50
+        },
+        "image": "https://placeholder.com/food/leafy-vegetable-bhaji.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "none",
+          "mr": "नसलेले"
+        },
+        "vegOrNonVeg": "veg",
+        "tags": ["veg bhaji"]
+      },
+      {
+        "id": "item14",
+        "name": {
+          "en": "Dry Bhaji",
+          "mr": "कोरडी भाजी"
+        },
+        "description": {
+          "en": "Dry Bhaji prepared in traditional style.",
+          "mr": "पारंपरिक पद्धतीने बनवलेले कोरडी भाजी."
+        },
+        "price": {
+          "full": 90,
+          "half": 50
+        },
+        "image": "https://placeholder.com/food/dry-bhaji.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "none",
+          "mr": "नसलेले"
+        },
+        "vegOrNonVeg": "veg",
+        "tags": ["veg bhaji"]
+      },
+      {
+        "id": "item15",
+        "name": {
+          "en": "Dry Aloo Bhaji",
+          "mr": "बटाट्याची भाजी"
+        },
+        "description": {
+          "en": "Dry Aloo Bhaji prepared in traditional style.",
+          "mr": "पारंपरिक पद्धतीने बनवलेले बटाट्याची भाजी."
+        },
+        "price": {
+          "full": 90,
+          "half": 50
+        },
+        "image": "https://placeholder.com/food/dry-aloo-bhaji.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "none",
+          "mr": "नसलेले"
+        },
+        "vegOrNonVeg": "veg",
+        "tags": ["veg bhaji"]
+      },
+      {
+        "id": "item16",
+        "name": {
+          "en": "Dry Usal",
+          "mr": "उसळ"
+        },
+        "description": {
+          "en": "Spicy Dry Usal cooked with aromatic spices.",
+          "mr": "सुगंधी मसाल्यांसह बनवलेले मसालेदार उसळ."
+        },
+        "price": {
+          "full": 100,
+          "half": 50
+        },
+        "image": "https://placeholder.com/food/dry-usal.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "spicy",
+          "mr": "तिखट"
+        },
+        "vegOrNonVeg": "veg",
+        "tags": ["veg bhaji"]
+      },
+      {
+        "id": "item17",
+        "name": {
+          "en": "Sev Bhaji",
+          "mr": "शेव भाजी"
+        },
+        "description": {
+          "en": "Sev Bhaji prepared in traditional style.",
+          "mr": "पारंपरिक पद्धतीने बनवलेले शेव भाजी."
+        },
+        "price": {
+          "full": 80,
+          "half": 50
+        },
+        "image": "https://placeholder.com/food/sev-bhaji.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "none",
+          "mr": "नसलेले"
+        },
+        "vegOrNonVeg": "veg",
+        "tags": ["veg bhaji"]
+      },
+      {
+        "id": "item18",
+        "name": {
+          "en": "Curry",
+          "mr": "रस्सा"
+        },
+        "description": {
+          "en": "Spicy Curry cooked with aromatic spices.",
+          "mr": "सुगंधी मसाल्यांसह बनवलेले मसालेदार रस्सा."
+        },
+        "price": {
+          "full": 80,
+          "half": 50
+        },
+        "image": "https://placeholder.com/food/curry.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "spicy",
+          "mr": "तिखट"
+        },
+        "vegOrNonVeg": "veg",
+        "tags": ["veg bhaji"]
+      },
+      {
+        "id": "item19",
+        "name": {
+          "en": "Pithla",
+          "mr": "पिठलं"
+        },
+        "description": {
+          "en": "Pithla prepared in traditional style.",
+          "mr": "पारंपरिक पद्धतीने बनवलेले पिठलं."
+        },
+        "price": {
+          "full": 80,
+          "half": 50
+        },
+        "image": "https://placeholder.com/food/pithla.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "none",
+          "mr": "नसलेले"
+        },
+        "vegOrNonVeg": "veg",
+        "tags": ["veg bhaji"]
+      },
+      {
+        "id": "item20",
+        "name": {
+          "en": "Veg Medium Bhaji",
+          "mr": "व्हेज मध्यम भाजी"
+        },
+        "description": {
+          "en": "Veg Medium Bhaji prepared in traditional style.",
+          "mr": "पारंपरिक पद्धतीने बनवलेले व्हेज मध्यम भाजी."
+        },
+        "price": {
+          "full": 80,
+          "half": 50
+        },
+        "image": "https://placeholder.com/food/veg-medium-bhaji.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "none",
+          "mr": "नसलेले"
+        },
+        "vegOrNonVeg": "veg",
+        "tags": ["veg bhaji"]
+      },
+      {
+        "id": "item21",
+        "name": {
+          "en": "Usal Rasa Bhaji",
+          "mr": "उसळ रस्सा"
+        },
+        "description": {
+          "en": "Spicy Usal Rasa Bhaji cooked with aromatic spices.",
+          "mr": "सुगंधी मसाल्यांसह बनवलेले मसालेदार उसळ रस्सा."
+        },
+        "price": {
+          "full": 80,
+          "half": 50
+        },
+        "image": "https://placeholder.com/food/usal-rasa-bhaji.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "spicy",
+          "mr": "तिखट"
+        },
+        "vegOrNonVeg": "veg",
+        "tags": ["veg bhaji"]
+      },
+      {
+        "id": "item22",
+        "name": {
+          "en": "Tawa Flower Matar",
+          "mr": "तवा फुल मटर"
+        },
+        "description": {
+          "en": "Tawa Flower Matar prepared in traditional style.",
+          "mr": "पारंपरिक पद्धतीने बनवलेले तवा फुल मटर."
+        },
+        "price": 100,
+        "image": "https://placeholder.com/food/tawa-flower-matar.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "none",
+          "mr": "नसलेले"
+        },
+        "vegOrNonVeg": "veg",
+        "tags": ["veg bhaji"]
+      },
+      {
+        "id": "item23",
+        "name": {
+          "en": "Tawa Vanga",
+          "mr": "तवा वांगी"
+        },
+        "description": {
+          "en": "Tawa Vanga prepared in traditional style.",
+          "mr": "पारंपरिक पद्धतीने बनवलेले तवा वांगी."
+        },
+        "price": 100,
+        "image": "https://placeholder.com/food/tawa-vanga.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "none",
+          "mr": "नसलेले"
+        },
+        "vegOrNonVeg": "veg",
+        "tags": ["veg bhaji"]
+      },
+      {
+        "id": "item24",
+        "name": {
+          "en": "Tawa Aloo",
+          "mr": "तवा बटाटा"
+        },
+        "description": {
+          "en": "Tawa Aloo prepared in traditional style.",
+          "mr": "पारंपरिक पद्धतीने बनवलेले तवा बटाटा."
+        },
+        "price": 100,
+        "image": "https://placeholder.com/food/tawa-aloo.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "none",
+          "mr": "नसलेले"
+        },
+        "vegOrNonVeg": "veg",
+        "tags": ["veg bhaji"]
+      },
+      {
+        "id": "item25",
+        "name": {
+          "en": "Tawa Karela",
+          "mr": "तवा कारलं"
+        },
+        "description": {
+          "en": "Tawa Karela prepared in traditional style.",
+          "mr": "पारंपरिक पद्धतीने बनवलेले तवा कारलं."
+        },
+        "price": 100,
+        "image": "https://placeholder.com/food/tawa-karela.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "none",
+          "mr": "नसलेले"
+        },
+        "vegOrNonVeg": "veg",
+        "tags": ["veg bhaji"]
+      },
+      {
+        "id": "item26",
+        "name": {
+          "en": "Tawa Bhendi",
+          "mr": "तवा भेंडी"
+        },
+        "description": {
+          "en": "Tawa Bhendi prepared in traditional style.",
+          "mr": "पारंपरिक पद्धतीने बनवलेले तवा भेंडी."
+        },
+        "price": 100,
+        "image": "https://placeholder.com/food/tawa-bhendi.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "none",
+          "mr": "नसलेले"
+        },
+        "vegOrNonVeg": "veg",
+        "tags": ["veg bhaji"]
+      },
+      {
+        "id": "item27",
+        "name": {
+          "en": "Tawa Tondli",
+          "mr": "तवा तोंडली"
+        },
+        "description": {
+          "en": "Tawa Tondli prepared in traditional style.",
+          "mr": "पारंपरिक पद्धतीने बनवलेले तवा तोंडली."
+        },
+        "price": 100,
+        "image": "https://placeholder.com/food/tawa-tondli.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "none",
+          "mr": "नसलेले"
+        },
+        "vegOrNonVeg": "veg",
+        "tags": ["veg bhaji"]
+      },
+      {
+        "id": "item28",
+        "name": {
+          "en": "Tawa Paneer",
+          "mr": "तवा पनीर"
+        },
+        "description": {
+          "en": "Tawa Paneer prepared in traditional style.",
+          "mr": "पारंपरिक पद्धतीने बनवलेले तवा पनीर."
+        },
+        "price": 100,
+        "image": "https://placeholder.com/food/tawa-paneer.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "none",
+          "mr": "नसलेले"
+        },
+        "vegOrNonVeg": "veg",
+        "tags": ["veg bhaji"]
+      },
+      {
+        "id": "item29",
+        "name": {
+          "en": "Paneer Butter Masala",
+          "mr": "पनीर बटर मसाला"
+        },
+        "description": {
+          "en": "Spicy Paneer Butter Masala cooked with aromatic spices.",
+          "mr": "सुगंधी मसाल्यांसह बनवलेले मसालेदार पनीर बटर मसाला."
+        },
+        "price": {
+          "full": 140,
+          "half": 80
+        },
+        "image": "https://placeholder.com/food/paneer-butter-masala.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "spicy",
+          "mr": "तिखट"
+        },
+        "vegOrNonVeg": "veg",
+        "tags": ["veg bhaji"]
+      },
+      {
+        "id": "item30",
+        "name": {
+          "en": "Paneer Masala",
+          "mr": "पनीर मसाला"
+        },
+        "description": {
+          "en": "Spicy Paneer Masala cooked with aromatic spices.",
+          "mr": "सुगंधी मसाल्यांसह बनवलेले मसालेदार पनीर मसाला."
+        },
+        "price": {
+          "full": 140,
+          "half": 80
+        },
+        "image": "https://placeholder.com/food/paneer-masala.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "spicy",
+          "mr": "तिखट"
+        },
+        "vegOrNonVeg": "veg",
+        "tags": ["veg bhaji"]
+      },
+      {
+        "id": "item31",
+        "name": {
+          "en": "Paneer Kolhapuri",
+          "mr": "पनीर कोल्हापुरी"
+        },
+        "description": {
+          "en": "Spicy Paneer Kolhapuri cooked with aromatic spices.",
+          "mr": "सुगंधी मसाल्यांसह बनवलेले मसालेदार पनीर कोल्हापुरी."
+        },
+        "price": {
+          "full": 140,
+          "half": 80
+        },
+        "image": "https://placeholder.com/food/paneer-kolhapuri.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "spicy",
+          "mr": "तिखट"
+        },
+        "vegOrNonVeg": "veg",
+        "tags": ["veg bhaji"]
+      }
+    ],
+    "Rice": [
+      {
+        "id": "item32",
+        "name": {
+          "en": "Plain Rice",
+          "mr": "साधा भात"
+        },
+        "description": {
+          "en": "Plain Rice prepared in traditional style.",
+          "mr": "पारंपरिक पद्धतीने बनवलेले साधा भात."
+        },
+        "price": {
+          "full": 60,
+          "half": 30
+        },
+        "image": "https://placeholder.com/food/plain-rice.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "mild",
+          "mr": "हलके"
+        },
+        "vegOrNonVeg": "veg",
+        "tags": ["rice"]
+      },
+      {
+        "id": "item33",
+        "name": {
+          "en": "Jeera Rice",
+          "mr": "जिरा भात"
+        },
+        "description": {
+          "en": "Jeera Rice prepared in traditional style.",
+          "mr": "पारंपरिक पद्धतीने बनवलेले जिरा भात."
+        },
+        "price": {
+          "full": 80,
+          "half": 50
+        },
+        "image": "https://placeholder.com/food/jeera-rice.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "mild",
+          "mr": "हलके"
+        },
+        "vegOrNonVeg": "veg",
+        "tags": ["rice"]
+      },
+      {
+        "id": "item34",
+        "name": {
+          "en": "Pulav Rice",
+          "mr": "पुलाव भात"
+        },
+        "description": {
+          "en": "Pulav Rice prepared in traditional style.",
+          "mr": "पारंपरिक पद्धतीने बनवलेले पुलाव भात."
+        },
+        "price": {
+          "full": 110,
+          "half": 70
+        },
+        "image": "https://placeholder.com/food/pulav-rice.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "mild",
+          "mr": "हलके"
+        },
+        "vegOrNonVeg": "veg",
+        "tags": ["rice"]
+      },
+      {
+        "id": "item35",
+        "name": {
+          "en": "Masala Rice",
+          "mr": "मसाला भात"
+        },
+        "description": {
+          "en": "Spicy Masala Rice cooked with aromatic spices.",
+          "mr": "सुगंधी मसाल्यांसह बनवलेले मसालेदार मसाला भात."
+        },
+        "price": {
+          "full": 120,
+          "half": 80
+        },
+        "image": "https://placeholder.com/food/masala-rice.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "spicy",
+          "mr": "तिखट"
+        },
+        "vegOrNonVeg": "veg",
+        "tags": ["rice"]
+      },
+      {
+        "id": "item36",
+        "name": {
+          "en": "Veg Fried Rice",
+          "mr": "व्हेज फ्राईड राईस"
+        },
+        "description": {
+          "en": "Veg Fried Rice prepared in traditional style.",
+          "mr": "पारंपरिक पद्धतीने बनवलेले व्हेज फ्राईड राईस."
+        },
+        "price": {
+          "full": 130,
+          "half": 90
+        },
+        "image": "https://placeholder.com/food/veg-fried-rice.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "mild",
+          "mr": "हलके"
+        },
+        "vegOrNonVeg": "veg",
+        "tags": ["rice"]
+      },
+      {
+        "id": "item37",
+        "name": {
+          "en": "Paneer Biryani",
+          "mr": "पनीर बिर्याणी"
+        },
+        "description": {
+          "en": "Flavorful Paneer Biryani with balanced spices.",
+          "mr": "संतुलित मसाल्यांसह स्वादिष्ट पनीर बिर्याणी."
+        },
+        "price": 140,
+        "image": "https://placeholder.com/food/paneer-biryani.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "medium",
+          "mr": "मध्यम"
+        },
+        "vegOrNonVeg": "veg",
+        "tags": ["rice"]
+      },
+      {
+        "id": "item38",
+        "name": {
+          "en": "Dal Khichdi",
+          "mr": "डाळ खिचडी"
+        },
+        "description": {
+          "en": "Dal Khichdi prepared in traditional style.",
+          "mr": "पारंपरिक पद्धतीने बनवलेले डाळ खिचडी."
+        },
+        "price": {
+          "full": 180,
+          "half": 120
+        },
+        "image": "https://placeholder.com/food/dal-khichdi.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "mild",
+          "mr": "हलके"
+        },
+        "vegOrNonVeg": "veg",
+        "tags": ["rice"]
+      },
+      {
+        "id": "item39",
+        "name": {
+          "en": "Veg Biryani",
+          "mr": "व्हेज बिर्याणी"
+        },
+        "description": {
+          "en": "Flavorful Veg Biryani with balanced spices.",
+          "mr": "संतुलित मसाल्यांसह स्वादिष्ट व्हेज बिर्याणी."
+        },
+        "price": {
+          "full": 160,
+          "half": 110
+        },
+        "image": "https://placeholder.com/food/veg-biryani.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "medium",
+          "mr": "मध्यम"
+        },
+        "vegOrNonVeg": "veg",
+        "tags": ["rice"],
+        "note": {
+          "en": "₹900 प्रति किलो",
+          "mr": "₹900 प्रति किलो"
+        }
+      },
+      {
+        "id": "item40",
+        "name": {
+          "en": "Veg Paneer Biryani",
+          "mr": "पनीर बिर्याणी"
+        },
+        "description": {
+          "en": "Flavorful Veg Paneer Biryani with balanced spices.",
+          "mr": "संतुलित मसाल्यांसह स्वादिष्ट पनीर बिर्याणी."
+        },
+        "price": {
+          "full": 220,
+          "half": 160
+        },
+        "image": "https://placeholder.com/food/veg-paneer-biryani.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "medium",
+          "mr": "मध्यम"
+        },
+        "vegOrNonVeg": "veg",
+        "tags": ["rice"],
+        "note": {
+          "en": "₹1050 प्रति किलो",
+          "mr": "₹1050 प्रति किलो"
+        }
+      }
+    ],
+    "Dal": [
+      {
+        "id": "item41",
+        "name": {
+          "en": "Dal Fry",
+          "mr": "डाळ फ्राय"
+        },
+        "description": {
+          "en": "Dal Fry prepared in traditional style.",
+          "mr": "पारंपरिक पद्धतीने बनवलेले डाळ फ्राय."
+        },
+        "price": {
+          "full": 80,
+          "half": 40
+        },
+        "image": "https://placeholder.com/food/dal-fry.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "mild",
+          "mr": "हलके"
+        },
+        "vegOrNonVeg": "veg",
+        "tags": ["dal"]
+      },
+      {
+        "id": "item42",
+        "name": {
+          "en": "Dal Tadka",
+          "mr": "डाळ तडका"
+        },
+        "description": {
+          "en": "Flavorful Dal Tadka with balanced spices.",
+          "mr": "संतुलित मसाल्यांसह स्वादिष्ट डाळ तडका."
+        },
+        "price": {
+          "full": 90,
+          "half": 50
+        },
+        "image": "https://placeholder.com/food/dal-tadka.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "medium",
+          "mr": "मध्यम"
+        },
+        "vegOrNonVeg": "veg",
+        "tags": ["dal"]
+      }
+    ],
+    "Chatpata": [
+      {
+        "id": "item43",
+        "name": {
+          "en": "Aloo Vadi",
+          "mr": "बटाटा वडी"
+        },
+        "description": {
+          "en": "Aloo Vadi prepared in traditional style.",
+          "mr": "पारंपरिक पद्धतीने बनवलेले बटाटा वडी."
+        },
+        "price": {
+          "full": 60,
+          "half": 35
+        },
+        "image": "https://placeholder.com/food/aloo-vadi.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "none",
+          "mr": "नसलेले"
+        },
+        "vegOrNonVeg": "veg",
+        "tags": ["chatpata"]
+      },
+      {
+        "id": "item44",
+        "name": {
+          "en": "Kothimbirwadi",
+          "mr": "कोथिंबीर वडी"
+        },
+        "description": {
+          "en": "Kothimbirwadi prepared in traditional style.",
+          "mr": "पारंपरिक पद्धतीने बनवलेले कोथिंबीर वडी."
+        },
+        "price": {
+          "full": 60,
+          "half": 40
+        },
+        "image": "https://placeholder.com/food/kothimbirwadi.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "none",
+          "mr": "नसलेले"
+        },
+        "vegOrNonVeg": "veg",
+        "tags": ["chatpata"]
+      },
+      {
+        "id": "item45",
+        "name": {
+          "en": "Chana Koliwada",
+          "mr": "चना कोळीवाडा"
+        },
+        "description": {
+          "en": "Chana Koliwada prepared in traditional style.",
+          "mr": "पारंपरिक पद्धतीने बनवलेले चना कोळीवाडा."
+        },
+        "price": 100,
+        "image": "https://placeholder.com/food/chana-koliwada.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "none",
+          "mr": "नसलेले"
+        },
+        "vegOrNonVeg": "veg",
+        "tags": ["chatpata"]
+      },
+      {
+        "id": "item46",
+        "name": {
+          "en": "Batata Kaap",
+          "mr": "बटाटा काप"
+        },
+        "description": {
+          "en": "Batata Kaap prepared in traditional style.",
+          "mr": "पारंपरिक पद्धतीने बनवलेले बटाटा काप."
+        },
+        "price": 100,
+        "image": "https://placeholder.com/food/batata-kaap.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "none",
+          "mr": "नसलेले"
+        },
+        "vegOrNonVeg": "veg",
+        "tags": ["chatpata"]
+      },
+      {
+        "id": "item47",
+        "name": {
+          "en": "Vangyacha Kaap",
+          "mr": "वांग्याचा काप"
+        },
+        "description": {
+          "en": "Vangyacha Kaap prepared in traditional style.",
+          "mr": "पारंपरिक पद्धतीने बनवलेले वांग्याचा काप."
+        },
+        "price": 100,
+        "image": "https://placeholder.com/food/vangyacha-kaap.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "none",
+          "mr": "नसलेले"
+        },
+        "vegOrNonVeg": "veg",
+        "tags": ["chatpata"]
+      },
+      {
+        "id": "item48",
+        "name": {
+          "en": "Papad",
+          "mr": "पापड"
+        },
+        "description": {
+          "en": "Papad prepared in traditional style.",
+          "mr": "पारंपरिक पद्धतीने बनवलेले पापड."
+        },
+        "price": 8,
+        "image": "https://placeholder.com/food/papad.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "none",
+          "mr": "नसलेले"
+        },
+        "vegOrNonVeg": "veg",
+        "tags": ["chatpata"]
+      },
+      {
+        "id": "item49",
+        "name": {
+          "en": "Rice Papad",
+          "mr": "तांदळाचा पापड"
+        },
+        "description": {
+          "en": "Rice Papad prepared in traditional style.",
+          "mr": "पारंपरिक पद्धतीने बनवलेले तांदळाचा पापड."
+        },
+        "price": 20,
+        "image": "https://placeholder.com/food/rice-papad.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "mild",
+          "mr": "हलके"
+        },
+        "vegOrNonVeg": "veg",
+        "tags": ["chatpata"]
+      },
+      {
+        "id": "item50",
+        "name": {
+          "en": "Nachani Papad",
+          "mr": "नाचणी पापड"
+        },
+        "description": {
+          "en": "Nachani Papad prepared in traditional style.",
+          "mr": "पारंपरिक पद्धतीने बनवलेले नाचणी पापड."
+        },
+        "price": 20,
+        "image": "https://placeholder.com/food/nachani-papad.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "none",
+          "mr": "नसलेले"
+        },
+        "vegOrNonVeg": "veg",
+        "tags": ["chatpata"]
+      }
+    ],
+    "Naivedya Special Sweets": [
+      {
+        "id": "item51",
+        "name": {
+          "en": "Sheera",
+          "mr": "शिरा"
+        },
+        "description": {
+          "en": "Sweet Sheera, perfect dessert choice.",
+          "mr": "गोड शिरा, उत्तम डेझर्ट पर्याय."
+        },
+        "price": 20,
+        "image": "https://placeholder.com/food/sheera.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "sweet",
+          "mr": "गोड"
+        },
+        "vegOrNonVeg": "veg",
+        "tags": ["naivedya special sweets"]
+      },
+      {
+        "id": "item52",
+        "name": {
+          "en": "Gulab Jamun",
+          "mr": "गुलाबजाम"
+        },
+        "description": {
+          "en": "Sweet Gulab Jamun, perfect dessert choice.",
+          "mr": "गोड गुलाबजाम, उत्तम डेझर्ट पर्याय."
+        },
+        "price": 15,
+        "image": "https://placeholder.com/food/gulab-jamun.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "sweet",
+          "mr": "गोड"
+        },
+        "vegOrNonVeg": "veg",
+        "tags": ["naivedya special sweets"]
+      },
+      {
+        "id": "item53",
+        "name": {
+          "en": "Basundi",
+          "mr": "बासुंदी"
+        },
+        "description": {
+          "en": "Sweet Basundi, perfect dessert choice.",
+          "mr": "गोड बासुंदी, उत्तम डेझर्ट पर्याय."
+        },
+        "price": 40,
+        "image": "https://placeholder.com/food/basundi.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "sweet",
+          "mr": "गोड"
+        },
+        "vegOrNonVeg": "veg",
+        "tags": ["naivedya special sweets"]
+      },
+      {
+        "id": "item54",
+        "name": {
+          "en": "Jilebi (100 g)",
+          "mr": "जिलेबी (१०० ग्रॅम)"
+        },
+        "description": {
+          "en": "Sweet Jilebi (100 g), perfect dessert choice.",
+          "mr": "गोड जिलेबी (१०० ग्रॅम), उत्तम डेझर्ट पर्याय."
+        },
+        "price": 25,
+        "image": "https://placeholder.com/food/jilebi-(100-g).jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "sweet",
+          "mr": "गोड"
+        },
+        "vegOrNonVeg": "veg",
+        "tags": ["naivedya special sweets"]
+      }
+    ],
+    "Cold Drinks": [
+      {
+        "id": "item55",
+        "name": {
+          "en": "Butter Milk",
+          "mr": "ताक"
+        },
+        "description": {
+          "en": "Flavorful Butter Milk with balanced spices.",
+          "mr": "संतुलित मसाल्यांसह स्वादिष्ट ताक."
+        },
+        "price": 10,
+        "image": "https://placeholder.com/food/butter-milk.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "medium",
+          "mr": "मध्यम"
+        },
+        "vegOrNonVeg": "veg",
+        "tags": ["cold drinks"]
+      },
+      {
+        "id": "item56",
+        "name": {
+          "en": "Mineral Water",
+          "mr": "मिनरल वॉटर"
+        },
+        "description": {
+          "en": "Mineral Water prepared in traditional style.",
+          "mr": "पारंपरिक पद्धतीने बनवलेले मिनरल वॉटर."
+        },
+        "price": 15,
+        "image": "https://placeholder.com/food/mineral-water.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "none",
+          "mr": "नसलेले"
+        },
+        "vegOrNonVeg": "veg",
+        "tags": ["cold drinks"]
+      },
+      {
+        "id": "item57",
+        "name": {
+          "en": "Cold Drink (200 ml)",
+          "mr": "कोल्ड ड्रिंक (२०० मिली)"
+        },
+        "description": {
+          "en": "Cold Drink (200 ml) prepared in traditional style.",
+          "mr": "पारंपरिक पद्धतीने बनवलेले कोल्ड ड्रिंक (२०० मिली)."
+        },
+        "price": 15,
+        "image": "https://placeholder.com/food/cold-drink-(200-ml).jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "none",
+          "mr": "नसलेले"
+        },
+        "vegOrNonVeg": "veg",
+        "tags": ["cold drinks"]
+      },
+      {
+        "id": "item58",
+        "name": {
+          "en": "Cold Drink (600 ml)",
+          "mr": "कोल्ड ड्रिंक (६०० मिली)"
+        },
+        "description": {
+          "en": "Cold Drink (600 ml) prepared in traditional style.",
+          "mr": "पारंपरिक पद्धतीने बनवलेले कोल्ड ड्रिंक (६०० मिली)."
+        },
+        "price": 35,
+        "image": "https://placeholder.com/food/cold-drink-(600-ml).jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "none",
+          "mr": "नसलेले"
+        },
+        "vegOrNonVeg": "veg",
+        "tags": ["cold drinks"]
+      },
+      {
+        "id": "item59",
+        "name": {
+          "en": "Cold Drink (2 Ltr)",
+          "mr": "कोल्ड ड्रिंक (२ लि)"
+        },
+        "description": {
+          "en": "Cold Drink (2 Ltr) prepared in traditional style.",
+          "mr": "पारंपरिक पद्धतीने बनवलेले कोल्ड ड्रिंक (२ लि)."
+        },
+        "price": 60,
+        "image": "https://placeholder.com/food/cold-drink-(2-ltr).jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "none",
+          "mr": "नसलेले"
+        },
+        "vegOrNonVeg": "veg",
+        "tags": ["cold drinks"]
+      }
+    ],
+    "Veg Thali": [
+      {
+        "id": "item60",
+        "name": {
+          "en": "Mini Veg Thali",
+          "mr": "मिनी व्हेज थाळी"
+        },
+        "description": {
+          "en": "Mini Veg Thali prepared in traditional style.",
+          "mr": "पारंपरिक पद्धतीने बनवलेले मिनी व्हेज थाळी."
+        },
+        "price": 60,
+        "image": "https://placeholder.com/food/mini-veg-thali.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "none",
+          "mr": "नसलेले"
+        },
+        "vegOrNonVeg": "veg",
+        "tags": ["veg thali"]
+      },
+      {
+        "id": "item61",
+        "name": {
+          "en": "Veg Medium Thali",
+          "mr": "व्हेज मध्यम थाळी"
+        },
+        "description": {
+          "en": "Veg Medium Thali prepared in traditional style.",
+          "mr": "पारंपरिक पद्धतीने बनवलेले व्हेज मध्यम थाळी."
+        },
+        "price": 70,
+        "image": "https://placeholder.com/food/veg-medium-thali.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "none",
+          "mr": "नसलेले"
+        },
+        "vegOrNonVeg": "veg",
+        "tags": ["veg thali"]
+      },
+      {
+        "id": "item62",
+        "name": {
+          "en": "Veg Special Thali",
+          "mr": "व्हेज स्पेशल थाळी"
+        },
+        "description": {
+          "en": "Veg Special Thali prepared in traditional style.",
+          "mr": "पारंपरिक पद्धतीने बनवलेले व्हेज स्पेशल थाळी."
+        },
+        "price": 100,
+        "image": "https://placeholder.com/food/veg-special-thali.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "none",
+          "mr": "नसलेले"
+        },
+        "vegOrNonVeg": "veg",
+        "tags": ["veg thali"]
+      },
+      {
+        "id": "item63",
+        "name": {
+          "en": "Punjabi Thali",
+          "mr": "पंजाबी थाळी"
+        },
+        "description": {
+          "en": "Punjabi Thali prepared in traditional style.",
+          "mr": "पारंपरिक पद्धतीने बनवलेले पंजाबी थाळी."
+        },
+        "price": 120,
+        "image": "https://placeholder.com/food/punjabi-thali.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "none",
+          "mr": "नसलेले"
+        },
+        "vegOrNonVeg": "veg",
+        "tags": ["veg thali"]
+      },
+      {
+        "id": "item64",
+        "name": {
+          "en": "Paneer Thali",
+          "mr": "पनीर थाळी"
+        },
+        "description": {
+          "en": "Paneer Thali prepared in traditional style.",
+          "mr": "पारंपरिक पद्धतीने बनवलेले पनीर थाळी."
+        },
+        "price": 150,
+        "image": "https://placeholder.com/food/paneer-thali.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "none",
+          "mr": "नसलेले"
+        },
+        "vegOrNonVeg": "veg",
+        "tags": ["veg thali"]
+      }
+    ],
+    "Non-Veg Bhaji": [
+      {
+        "id": "item65",
+        "name": {
+          "en": "Egg Curry",
+          "mr": "अंड्याची भाजी"
+        },
+        "description": {
+          "en": "Spicy Egg Curry cooked with aromatic spices.",
+          "mr": "सुगंधी मसाल्यांसह बनवलेले मसालेदार अंड्याची भाजी."
+        },
+        "price": {
+          "full": 90,
+          "half": 50
+        },
+        "image": "https://placeholder.com/food/egg-curry.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "spicy",
+          "mr": "तिखट"
+        },
+        "vegOrNonVeg": "non-veg",
+        "tags": ["non-veg bhaji"]
+      },
+      {
+        "id": "item66",
+        "name": {
+          "en": "Egg Masala",
+          "mr": "अंडा मसाला"
+        },
+        "description": {
+          "en": "Spicy Egg Masala cooked with aromatic spices.",
+          "mr": "सुगंधी मसाल्यांसह बनवलेले मसालेदार अंडा मसाला."
+        },
+        "price": {
+          "full": 90,
+          "half": 50
+        },
+        "image": "https://placeholder.com/food/egg-masala.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "spicy",
+          "mr": "तिखट"
+        },
+        "vegOrNonVeg": "non-veg",
+        "tags": ["non-veg bhaji"]
+      },
+      {
+        "id": "item67",
+        "name": {
+          "en": "Anda Bhurji",
+          "mr": "अंडा भुर्जी"
+        },
+        "description": {
+          "en": "Anda Bhurji prepared in traditional style.",
+          "mr": "पारंपरिक पद्धतीने बनवलेले अंडा भुर्जी."
+        },
+        "price": {
+          "full": 90,
+          "half": 50
+        },
+        "image": "https://placeholder.com/food/anda-bhurji.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "none",
+          "mr": "नसलेले"
+        },
+        "vegOrNonVeg": "non-veg",
+        "tags": ["non-veg bhaji"]
+      },
+      {
+        "id": "item68",
+        "name": {
+          "en": "Chicken Curry",
+          "mr": "चिकन करी"
+        },
+        "description": {
+          "en": "Spicy Chicken Curry cooked with aromatic spices.",
+          "mr": "सुगंधी मसाल्यांसह बनवलेले मसालेदार चिकन करी."
+        },
+        "price": {
+          "full": 180,
+          "half": 100
+        },
+        "image": "https://placeholder.com/food/chicken-curry.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "spicy",
+          "mr": "तिखट"
+        },
+        "vegOrNonVeg": "non-veg",
+        "tags": ["non-veg bhaji"]
+      },
+      {
+        "id": "item69",
+        "name": {
+          "en": "Chicken Masala",
+          "mr": "चिकन मसाला"
+        },
+        "description": {
+          "en": "Spicy Chicken Masala cooked with aromatic spices.",
+          "mr": "सुगंधी मसाल्यांसह बनवलेले मसालेदार चिकन मसाला."
+        },
+        "price": {
+          "full": 180,
+          "half": 100
+        },
+        "image": "https://placeholder.com/food/chicken-masala.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "spicy",
+          "mr": "तिखट"
+        },
+        "vegOrNonVeg": "non-veg",
+        "tags": ["non-veg bhaji"]
+      },
+      {
+        "id": "item70",
+        "name": {
+          "en": "Chicken Kolhapuri",
+          "mr": "चिकन कोल्हापुरी"
+        },
+        "description": {
+          "en": "Spicy Chicken Kolhapuri cooked with aromatic spices.",
+          "mr": "सुगंधी मसाल्यांसह बनवलेले मसालेदार चिकन कोल्हापुरी."
+        },
+        "price": {
+          "full": 180,
+          "half": 100
+        },
+        "image": "https://placeholder.com/food/chicken-kolhapuri.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "spicy",
+          "mr": "तिखट"
+        },
+        "vegOrNonVeg": "non-veg",
+        "tags": ["non-veg bhaji"]
+      },
+      {
+        "id": "item71",
+        "name": {
+          "en": "Mutton Curry",
+          "mr": "मटण करी"
+        },
+        "description": {
+          "en": "Spicy Mutton Curry cooked with aromatic spices.",
+          "mr": "सुगंधी मसाल्यांसह बनवलेले मसालेदार मटण करी."
+        },
+        "price": {
+          "full": 260,
+          "half": 150
+        },
+        "image": "https://placeholder.com/food/mutton-curry.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "spicy",
+          "mr": "तिखट"
+        },
+        "vegOrNonVeg": "non-veg",
+        "tags": ["non-veg bhaji"]
+      },
+      {
+        "id": "item72",
+        "name": {
+          "en": "Mutton Masala",
+          "mr": "मटण मसाला"
+        },
+        "description": {
+          "en": "Spicy Mutton Masala cooked with aromatic spices.",
+          "mr": "सुगंधी मसाल्यांसह बनवलेले मसालेदार मटण मसाला."
+        },
+        "price": {
+          "full": 260,
+          "half": 150
+        },
+        "image": "https://placeholder.com/food/mutton-masala.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "spicy",
+          "mr": "तिखट"
+        },
+        "vegOrNonVeg": "non-veg",
+        "tags": ["non-veg bhaji"]
+      },
+      {
+        "id": "item73",
+        "name": {
+          "en": "Mutton Kolhapuri",
+          "mr": "मटण कोल्हापुरी"
+        },
+        "description": {
+          "en": "Spicy Mutton Kolhapuri cooked with aromatic spices.",
+          "mr": "सुगंधी मसाल्यांसह बनवलेले मसालेदार मटण कोल्हापुरी."
+        },
+        "price": {
+          "full": 260,
+          "half": 150
+        },
+        "image": "https://placeholder.com/food/mutton-kolhapuri.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "spicy",
+          "mr": "तिखट"
+        },
+        "vegOrNonVeg": "non-veg",
+        "tags": ["non-veg bhaji"]
+      },
+      {
+        "id": "item74",
+        "name": {
+          "en": "Fish Curry",
+          "mr": "फिश करी"
+        },
+        "description": {
+          "en": "Spicy Fish Curry cooked with aromatic spices.",
+          "mr": "सुगंधी मसाल्यांसह बनवलेले मसालेदार फिश करी."
+        },
+        "price": 180,
+        "image": "https://placeholder.com/food/fish-curry.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "spicy",
+          "mr": "तिखट"
+        },
+        "vegOrNonVeg": "non-veg",
+        "tags": ["non-veg bhaji"]
+      },
+      {
+        "id": "item75",
+        "name": {
+          "en": "Fish Masala",
+          "mr": "फिश मसाला"
+        },
+        "description": {
+          "en": "Spicy Fish Masala cooked with aromatic spices.",
+          "mr": "सुगंधी मसाल्यांसह बनवलेले मसालेदार फिश मसाला."
+        },
+        "price": 180,
+        "image": "https://placeholder.com/food/fish-masala.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "spicy",
+          "mr": "तिखट"
+        },
+        "vegOrNonVeg": "non-veg",
+        "tags": ["non-veg bhaji"]
+      },
+      {
+        "id": "item76",
+        "name": {
+          "en": "Prawns Curry",
+          "mr": "कोळंबी करी"
+        },
+        "description": {
+          "en": "Spicy Prawns Curry cooked with aromatic spices.",
+          "mr": "सुगंधी मसाल्यांसह बनवलेले मसालेदार कोळंबी करी."
+        },
+        "price": 220,
+        "image": "https://placeholder.com/food/prawns-curry.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "spicy",
+          "mr": "तिखट"
+        },
+        "vegOrNonVeg": "non-veg",
+        "tags": ["non-veg bhaji"]
+      },
+      {
+        "id": "item77",
+        "name": {
+          "en": "Prawns Masala",
+          "mr": "कोळंबी मसाला"
+        },
+        "description": {
+          "en": "Spicy Prawns Masala cooked with aromatic spices.",
+          "mr": "सुगंधी मसाल्यांसह बनवलेले मसालेदार कोळंबी मसाला."
+        },
+        "price": 220,
+        "image": "https://placeholder.com/food/prawns-masala.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "spicy",
+          "mr": "तिखट"
+        },
+        "vegOrNonVeg": "non-veg",
+        "tags": ["non-veg bhaji"]
+      }
+    ],
+    "Fry Items": [
+      {
+        "id": "item78",
+        "name": {
+          "en": "Egg Fry",
+          "mr": "अंडा फ्राय"
+        },
+        "description": {
+          "en": "Egg Fry prepared in traditional style.",
+          "mr": "पारंपरिक पद्धतीने बनवलेले अंडा फ्राय."
+        },
+        "price": 20,
+        "image": "https://placeholder.com/food/egg-fry.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "none",
+          "mr": "नसलेले"
+        },
+        "vegOrNonVeg": "non-veg",
+        "tags": ["fry items"]
+      },
+      {
+        "id": "item79",
+        "name": {
+          "en": "Omelette",
+          "mr": "ऑम्लेट"
+        },
+        "description": {
+          "en": "Omelette prepared in traditional style.",
+          "mr": "पारंपरिक पद्धतीने बनवलेले ऑम्लेट."
+        },
+        "price": 25,
+        "image": "https://placeholder.com/food/omelette.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "none",
+          "mr": "नसलेले"
+        },
+        "vegOrNonVeg": "non-veg",
+        "tags": ["fry items"]
+      },
+      {
+        "id": "item80",
+        "name": {
+          "en": "Boiled Egg",
+          "mr": "उकडलेले अंडे"
+        },
+        "description": {
+          "en": "Boiled Egg prepared in traditional style.",
+          "mr": "पारंपरिक पद्धतीने बनवलेले उकडलेले अंडे."
+        },
+        "price": 10,
+        "image": "https://placeholder.com/food/boiled-egg.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "none",
+          "mr": "नसलेले"
+        },
+        "vegOrNonVeg": "non-veg",
+        "tags": ["fry items"]
+      },
+      {
+        "id": "item81",
+        "name": {
+          "en": "Chicken Fry",
+          "mr": "चिकन फ्राय"
+        },
+        "description": {
+          "en": "Chicken Fry prepared in traditional style.",
+          "mr": "पारंपरिक पद्धतीने बनवलेले चिकन फ्राय."
+        },
+        "price": {
+          "full": 200,
+          "half": 110
+        },
+        "image": "https://placeholder.com/food/chicken-fry.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "none",
+          "mr": "नसलेले"
+        },
+        "vegOrNonVeg": "non-veg",
+        "tags": ["fry items"]
+      },
+      {
+        "id": "item82",
+        "name": {
+          "en": "Mutton Fry",
+          "mr": "मटण फ्राय"
+        },
+        "description": {
+          "en": "Mutton Fry prepared in traditional style.",
+          "mr": "पारंपरिक पद्धतीने बनवलेले मटण फ्राय."
+        },
+        "price": {
+          "full": 280,
+          "half": 150
+        },
+        "image": "https://placeholder.com/food/mutton-fry.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "none",
+          "mr": "नसलेले"
+        },
+        "vegOrNonVeg": "non-veg",
+        "tags": ["fry items"]
+      },
+      {
+        "id": "item83",
+        "name": {
+          "en": "Fish Fry",
+          "mr": "फिश फ्राय"
+        },
+        "description": {
+          "en": "Fish Fry prepared in traditional style.",
+          "mr": "पारंपरिक पद्धतीने बनवलेले फिश फ्राय."
+        },
+        "price": 200,
+        "image": "https://placeholder.com/food/fish-fry.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "none",
+          "mr": "नसलेले"
+        },
+        "vegOrNonVeg": "non-veg",
+        "tags": ["fry items"]
+      },
+      {
+        "id": "item84",
+        "name": {
+          "en": "Prawns Fry",
+          "mr": "कोळंबी फ्राय"
+        },
+        "description": {
+          "en": "Prawns Fry prepared in traditional style.",
+          "mr": "पारंपरिक पद्धतीने बनवलेले कोळंबी फ्राय."
+        },
+        "price": 220,
+        "image": "https://placeholder.com/food/prawns-fry.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "none",
+          "mr": "नसलेले"
+        },
+        "vegOrNonVeg": "non-veg",
+        "tags": ["fry items"]
+      }
+    ],
+    "Non-Veg Biryani": [
+      {
+        "id": "item85",
+        "name": {
+          "en": "Egg Biryani",
+          "mr": "अंडा बिर्याणी"
+        },
+        "description": {
+          "en": "Flavorful Egg Biryani with balanced spices.",
+          "mr": "संतुलित मसाल्यांसह स्वादिष्ट अंडा बिर्याणी."
+        },
+        "price": {
+          "full": 150,
+          "half": 100
+        },
+        "image": "https://placeholder.com/food/egg-biryani.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "medium",
+          "mr": "मध्यम"
+        },
+        "vegOrNonVeg": "non-veg",
+        "tags": ["non-veg biryani"]
+      },
+      {
+        "id": "item86",
+        "name": {
+          "en": "Chicken Biryani",
+          "mr": "चिकन बिर्याणी"
+        },
+        "description": {
+          "en": "Flavorful Chicken Biryani with balanced spices.",
+          "mr": "संतुलित मसाल्यांसह स्वादिष्ट चिकन बिर्याणी."
+        },
+        "price": {
+          "full": 200,
+          "half": 120
+        },
+        "image": "https://placeholder.com/food/chicken-biryani.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "medium",
+          "mr": "मध्यम"
+        },
+        "vegOrNonVeg": "non-veg",
+        "tags": ["non-veg biryani"],
+        "note": {
+          "en": "₹1050 प्रति किलो",
+          "mr": "₹1050 प्रति किलो"
+        }
+      },
+      {
+        "id": "item87",
+        "name": {
+          "en": "Mutton Biryani",
+          "mr": "मटण बिर्याणी"
+        },
+        "description": {
+          "en": "Flavorful Mutton Biryani with balanced spices.",
+          "mr": "संतुलित मसाल्यांसह स्वादिष्ट मटण बिर्याणी."
+        },
+        "price": {
+          "full": 280,
+          "half": 160
+        },
+        "image": "https://placeholder.com/food/mutton-biryani.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "medium",
+          "mr": "मध्यम"
+        },
+        "vegOrNonVeg": "non-veg",
+        "tags": ["non-veg biryani"],
+        "note": {
+          "en": "₹1600 प्रति किलो",
+          "mr": "₹1600 प्रति किलो"
+        }
+      },
+      {
+        "id": "item88",
+        "name": {
+          "en": "Fish Biryani",
+          "mr": "फिश बिर्याणी"
+        },
+        "description": {
+          "en": "Flavorful Fish Biryani with balanced spices.",
+          "mr": "संतुलित मसाल्यांसह स्वादिष्ट फिश बिर्याणी."
+        },
+        "price": 200,
+        "image": "https://placeholder.com/food/fish-biryani.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "medium",
+          "mr": "मध्यम"
+        },
+        "vegOrNonVeg": "non-veg",
+        "tags": ["non-veg biryani"]
+      },
+      {
+        "id": "item89",
+        "name": {
+          "en": "Prawns Biryani",
+          "mr": "कोळंबी बिर्याणी"
+        },
+        "description": {
+          "en": "Flavorful Prawns Biryani with balanced spices.",
+          "mr": "संतुलित मसाल्यांसह स्वादिष्ट कोळंबी बिर्याणी."
+        },
+        "price": 220,
+        "image": "https://placeholder.com/food/prawns-biryani.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "medium",
+          "mr": "मध्यम"
+        },
+        "vegOrNonVeg": "non-veg",
+        "tags": ["non-veg biryani"]
+      }
+    ],
+    "Non-Veg Thali": [
+      {
+        "id": "item90",
+        "name": {
+          "en": "Egg Curry Thali",
+          "mr": "अंडा करी थाळी"
+        },
+        "description": {
+          "en": "Spicy Egg Curry Thali cooked with aromatic spices.",
+          "mr": "सुगंधी मसाल्यांसह बनवलेले मसालेदार अंडा करी थाळी."
+        },
+        "price": 70,
+        "image": "https://placeholder.com/food/egg-curry-thali.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "spicy",
+          "mr": "तिखट"
+        },
+        "vegOrNonVeg": "non-veg",
+        "tags": ["non-veg thali"]
+      },
+      {
+        "id": "item91",
+        "name": {
+          "en": "Egg Masala Thali",
+          "mr": "अंडा मसाला थाळी"
+        },
+        "description": {
+          "en": "Spicy Egg Masala Thali cooked with aromatic spices.",
+          "mr": "सुगंधी मसाल्यांसह बनवलेले मसालेदार अंडा मसाला थाळी."
+        },
+        "price": 70,
+        "image": "https://placeholder.com/food/egg-masala-thali.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "spicy",
+          "mr": "तिखट"
+        },
+        "vegOrNonVeg": "non-veg",
+        "tags": ["non-veg thali"]
+      },
+      {
+        "id": "item92",
+        "name": {
+          "en": "Egg Bhurji Thali",
+          "mr": "अंडा भुर्जी थाळी"
+        },
+        "description": {
+          "en": "Egg Bhurji Thali prepared in traditional style.",
+          "mr": "पारंपरिक पद्धतीने बनवलेले अंडा भुर्जी थाळी."
+        },
+        "price": 70,
+        "image": "https://placeholder.com/food/egg-bhurji-thali.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "none",
+          "mr": "नसलेले"
+        },
+        "vegOrNonVeg": "non-veg",
+        "tags": ["non-veg thali"]
+      },
+      {
+        "id": "item93",
+        "name": {
+          "en": "Chicken Curry Thali",
+          "mr": "चिकन करी थाळी"
+        },
+        "description": {
+          "en": "Spicy Chicken Curry Thali cooked with aromatic spices.",
+          "mr": "सुगंधी मसाल्यांसह बनवलेले मसालेदार चिकन करी थाळी."
+        },
+        "price": 120,
+        "image": "https://placeholder.com/food/chicken-curry-thali.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "spicy",
+          "mr": "तिखट"
+        },
+        "vegOrNonVeg": "non-veg",
+        "tags": ["non-veg thali"]
+      },
+      {
+        "id": "item94",
+        "name": {
+          "en": "Chicken Masala Thali",
+          "mr": "चिकन मसाला थाळी"
+        },
+        "description": {
+          "en": "Spicy Chicken Masala Thali cooked with aromatic spices.",
+          "mr": "सुगंधी मसाल्यांसह बनवलेले मसालेदार चिकन मसाला थाळी."
+        },
+        "price": 120,
+        "image": "https://placeholder.com/food/chicken-masala-thali.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "spicy",
+          "mr": "तिखट"
+        },
+        "vegOrNonVeg": "non-veg",
+        "tags": ["non-veg thali"]
+      },
+      {
+        "id": "item95",
+        "name": {
+          "en": "Chicken Kolhapuri Thali",
+          "mr": "चिकन कोल्हापुरी थाळी"
+        },
+        "description": {
+          "en": "Spicy Chicken Kolhapuri Thali cooked with aromatic spices.",
+          "mr": "सुगंधी मसाल्यांसह बनवलेले मसालेदार चिकन कोल्हापुरी थाळी."
+        },
+        "price": 120,
+        "image": "https://placeholder.com/food/chicken-kolhapuri-thali.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "spicy",
+          "mr": "तिखट"
+        },
+        "vegOrNonVeg": "non-veg",
+        "tags": ["non-veg thali"]
+      },
+      {
+        "id": "item96",
+        "name": {
+          "en": "Mutton Curry Thali",
+          "mr": "मटण करी थाळी"
+        },
+        "description": {
+          "en": "Spicy Mutton Curry Thali cooked with aromatic spices.",
+          "mr": "सुगंधी मसाल्यांसह बनवलेले मसालेदार मटण करी थाळी."
+        },
+        "price": 160,
+        "image": "https://placeholder.com/food/mutton-curry-thali.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "spicy",
+          "mr": "तिखट"
+        },
+        "vegOrNonVeg": "non-veg",
+        "tags": ["non-veg thali"]
+      },
+      {
+        "id": "item97",
+        "name": {
+          "en": "Mutton Masala Thali",
+          "mr": "मटण मसाला थाळी"
+        },
+        "description": {
+          "en": "Spicy Mutton Masala Thali cooked with aromatic spices.",
+          "mr": "सुगंधी मसाल्यांसह बनवलेले मसालेदार मटण मसाला थाळी."
+        },
+        "price": 160,
+        "image": "https://placeholder.com/food/mutton-masala-thali.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "spicy",
+          "mr": "तिखट"
+        },
+        "vegOrNonVeg": "non-veg",
+        "tags": ["non-veg thali"]
+      },
+      {
+        "id": "item98",
+        "name": {
+          "en": "Mutton Kolhapuri Thali",
+          "mr": "मटण कोल्हापुरी थाळी"
+        },
+        "description": {
+          "en": "Spicy Mutton Kolhapuri Thali cooked with aromatic spices.",
+          "mr": "सुगंधी मसाल्यांसह बनवलेले मसालेदार मटण कोल्हापुरी थाळी."
+        },
+        "price": 160,
+        "image": "https://placeholder.com/food/mutton-kolhapuri-thali.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "spicy",
+          "mr": "तिखट"
+        },
+        "vegOrNonVeg": "non-veg",
+        "tags": ["non-veg thali"]
+      },
+      {
+        "id": "item99",
+        "name": {
+          "en": "Fish Curry Thali",
+          "mr": "फिश करी थाळी"
+        },
+        "description": {
+          "en": "Spicy Fish Curry Thali cooked with aromatic spices.",
+          "mr": "सुगंधी मसाल्यांसह बनवलेले मसालेदार फिश करी थाळी."
+        },
+        "price": 120,
+        "image": "https://placeholder.com/food/fish-curry-thali.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "spicy",
+          "mr": "तिखट"
+        },
+        "vegOrNonVeg": "non-veg",
+        "tags": ["non-veg thali"]
+      },
+      {
+        "id": "item100",
+        "name": {
+          "en": "Fish Masala Thali",
+          "mr": "फिश मसाला थाळी"
+        },
+        "description": {
+          "en": "Spicy Fish Masala Thali cooked with aromatic spices.",
+          "mr": "सुगंधी मसाल्यांसह बनवलेले मसालेदार फिश मसाला थाळी."
+        },
+        "price": 120,
+        "image": "https://placeholder.com/food/fish-masala-thali.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "spicy",
+          "mr": "तिखट"
+        },
+        "vegOrNonVeg": "non-veg",
+        "tags": ["non-veg thali"]
+      },
+      {
+        "id": "item101",
+        "name": {
+          "en": "Prawns Curry Thali",
+          "mr": "कोळंबी करी थाळी"
+        },
+        "description": {
+          "en": "Spicy Prawns Curry Thali cooked with aromatic spices.",
+          "mr": "सुगंधी मसाल्यांसह बनवलेले मसालेदार कोळंबी करी थाळी."
+        },
+        "price": 140,
+        "image": "https://placeholder.com/food/prawns-curry-thali.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "spicy",
+          "mr": "तिखट"
+        },
+        "vegOrNonVeg": "non-veg",
+        "tags": ["non-veg thali"]
+      },
+      {
+        "id": "item102",
+        "name": {
+          "en": "Prawns Masala Thali",
+          "mr": "कोळंबी मसाला थाळी"
+        },
+        "description": {
+          "en": "Spicy Prawns Masala Thali cooked with aromatic spices.",
+          "mr": "सुगंधी मसाल्यांसह बनवलेले मसालेदार कोळंबी मसाला थाळी."
+        },
+        "price": 140,
+        "image": "https://placeholder.com/food/prawns-masala-thali.jpg",
+        "isAvailable": true,
+        "spiceLevel": {
+          "en": "spicy",
+          "mr": "तिखट"
+        },
+        "vegOrNonVeg": "non-veg",
+        "tags": ["non-veg thali"]
+      }
+    ]
+  }
+}

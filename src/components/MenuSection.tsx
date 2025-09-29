@@ -4,8 +4,8 @@ import { Input } from '@/components/ui/input';
 import { Card, CardContent } from '@/components/ui/card';
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from '@/components/ui/collapsible';
 import { useLanguage } from '@/contexts/LanguageContext';
+import { useMenuData } from '@/hooks/useMenuData';
 import { Search, ChevronDown, ChevronUp } from 'lucide-react';
-import menuData from '@/data/menu.json';
 
 type FilterType = 'all' | 'veg' | 'nonveg';
 
@@ -22,11 +22,10 @@ interface MenuCategory {
 
 export const MenuSection: React.FC = () => {
   const { language, t } = useLanguage();
+  const { menuData, loading, error } = useMenuData();
   const [searchTerm, setSearchTerm] = useState('');
   const [filter, setFilter] = useState<FilterType>('all');
   const [openCategories, setOpenCategories] = useState<Set<string>>(new Set());
-
-  const categories = menuData.categories as MenuCategory[];
 
   // Determine if a category is vegetarian or non-vegetarian
   const getCategoryType = (categoryName: string): 'veg' | 'nonveg' => {
@@ -43,6 +42,13 @@ export const MenuSection: React.FC = () => {
   };
 
   const filteredCategories = useMemo(() => {
+    if (!menuData) return [];
+    
+    const categories = Object.entries(menuData.menu).map(([categoryName, items]) => ({
+      name: { en: categoryName, mr: categoryName },
+      items: items
+    }));
+    
     return categories.filter(category => {
       const categoryType = getCategoryType(category.name.en);
       
@@ -67,7 +73,10 @@ export const MenuSection: React.FC = () => {
       
       return true;
     });
-  }, [categories, filter, searchTerm]);
+  }, [menuData, filter, searchTerm]);
+
+  if (loading) return <div className="py-16 text-center">Loading menu...</div>;
+  if (error) return <div className="py-16 text-center">Error: {error}</div>;
 
   const toggleCategory = (categoryName: string) => {
     const newOpenCategories = new Set(openCategories);

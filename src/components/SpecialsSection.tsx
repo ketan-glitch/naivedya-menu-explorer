@@ -2,16 +2,28 @@ import React from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { useLanguage } from '@/contexts/LanguageContext';
+import { useMenuData } from '@/hooks/useMenuData';
 import { Phone } from 'lucide-react';
-import menuData from '@/data/menu.json';
 
 export const SpecialsSection: React.FC = () => {
   const { language, t } = useLanguage();
+  const { menuData, loading, error } = useMenuData();
 
-  // Get Thali categories
-  const thaliCategories = menuData.categories.filter(category => 
-    category.name.en.toLowerCase().includes('thali')
-  );
+  if (loading) return <div className="py-16 text-center">Loading specials...</div>;
+  if (error) return <div className="py-16 text-center">Error: {error}</div>;
+
+  // Get today's special items or featured items
+  const featuredItems = menuData?.todaysSpecialConfig?.showTodaysSpecial 
+    ? menuData.todaysSpecialConfig.items 
+    : [];
+
+  // Get Thali categories  
+  const thaliCategories = menuData ? Object.entries(menuData.menu)
+    .filter(([categoryName]) => categoryName.toLowerCase().includes('thali'))
+    .map(([categoryName, items]) => ({
+      name: { en: categoryName, mr: categoryName },
+      items: items
+    })) : [];
 
   // Featured items
   const featuredItems = [
