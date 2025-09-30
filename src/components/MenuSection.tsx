@@ -193,11 +193,11 @@ export const MenuSection: React.FC = () => {
                               <h4 className="font-semibold text-foreground text-lg">
                                 {item.name[language]}
                               </h4>
-                              {item.note && (
-                                <p className="text-sm text-muted-foreground mt-1">
-                                  {item.note}
-                                </p>
-                              )}
+                          {item.note && (
+                            <p className="text-sm text-muted-foreground mt-1">
+                              {typeof item.note === 'string' ? item.note : item.note[language]}
+                            </p>
+                          )}
                             </div>
                             <div className="text-right">
                               <p className="font-bold text-primary text-lg">

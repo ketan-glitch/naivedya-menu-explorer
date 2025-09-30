@@ -25,46 +25,6 @@ export const SpecialsSection: React.FC = () => {
       items: items
     })) : [];
 
-  // Featured items
-  const featuredItems = [
-    {
-      name: { en: "Veg Special Thali", mr: "व्हेज स्पेशल थाळी" },
-      price: 100,
-      description: { 
-        en: "Complete meal with rice, roti, dal, bhaji, papad, pickle & sweet", 
-        mr: "भात, पोळी, डाळ, भाजी, पापड, लोणचं आणि गोड यासह संपूर्ण जेवण" 
-      },
-      image: "🥘"
-    },
-    {
-      name: { en: "Paneer Thali", mr: "पनीर थाळी" },
-      price: 150,
-      description: { 
-        en: "Special thali with paneer curry, rice, roti & accompaniments", 
-        mr: "पनीर करी, भात, पोळी आणि इतर पदार्थांसह विशेष थाळी" 
-      },
-      image: "🧈"
-    },
-    {
-      name: { en: "Chicken Biryani", mr: "चिकन बिर्याणी" },
-      price: { full: 200, half: 120 },
-      description: { 
-        en: "Aromatic basmati rice with tender chicken pieces & spices", 
-        mr: "कोमल चिकन तुकडे आणि मसाल्यांसह सुगंधी बासमती तांदूळ" 
-      },
-      image: "🍛"
-    },
-    {
-      name: { en: "Mutton Kolhapuri Thali", mr: "मटण कोल्हापुरी थाळी" },
-      price: 160,
-      description: { 
-        en: "Spicy Kolhapuri style mutton with traditional accompaniments", 
-        mr: "पारंपरिक पदार्थांसह तिखट कोल्हापुरी शैलीतील मटण" 
-      },
-      image: "🌶️"
-    }
-  ];
-
   const formatPrice = (price: number | { full: number; half: number }) => {
     if (typeof price === 'number') {
       return `${t('price')}${price}`;
